@@ -1,0 +1,15 @@
+#Un etudiant en pharmacie n est pas encocre a l aise avec la denomination commune internationale des medicaments, un de ses amis lui a ecrit un programme en python, qui, a partir de la DCI du medicament indique la famille de medicaments a laquelle il appartient 
+
+#On commence par creer une fonction reposant sur un dictionnaire 
+def classe_medicament(molecule):
+familles_medicaments = {
+"zepam": "benzodiazepine"
+"olol": "betabloquants" 
+"dine": "antihistaminique" 
+"vir": "anti viraux"
+"one": "corticoides"
+"prazole": "inhibiteurs de la pompe a protons"
+"cilline": "betalactalines"
+"mycine": "macrolides" 
+"fibrate": "normolipemiants" 
+"conazole": "antifongiques" }
