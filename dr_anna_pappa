@@ -54,3 +54,15 @@ while mois_remission < duree_bilan:
 #Repondre avec un adjectif
 duree_traitement = (input("Trouvez vous la durée du traitement élevée :"))
 print(f"Selon l'utilisateur, la durée du traitement est {duree_traitement}")
+
+#Dans chaque cancer, il y a un risque plus ou moins eleve de rechute, dans le cas de Rey, le taux de rechute est de 10%
+#Nous souhaitons savoir si il va rechuter
+
+import random
+
+def rechute(probabilite=0.1):
+   return random.random() < probabilite
+if rechute(0.1):
+   print("Rey aura une rechute")
+else:
+   print("Rey n'aura pas de rechute")
