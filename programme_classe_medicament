@@ -13,3 +13,5 @@ familles_medicaments = {
 "mycine": "macrolides" 
 "fibrate": "normolipemiants" 
 "conazole": "antifongiques" }
+
+#En attente d'une liste exhaustive
