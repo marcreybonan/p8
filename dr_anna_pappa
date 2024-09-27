@@ -34,7 +34,7 @@ if scanner_bon and bilan_sanguin :
  else:
     print("Revoir le traitement")
     
-#Marc doit réaliser des bilans à intervalle régulier
+#Rey doit réaliser des bilans à intervalle régulier
 bilan_complet=["Scan", "bilan sanguin", "echographie", "radiographie"]
 
 #On commence la surveillance, au début tous les 3 mois puis tous les 6 mois et enfin une fois par an, les durees sont exprimees en mois 
