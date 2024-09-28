@@ -24,6 +24,8 @@
     <img src="maintenance.jpg">
 	<p class="message"> Actuellement en construction, revenez dans une semaine ! </p>
     <!-- Je ne suis pas fan de mélanger le HTML et le CSS dans le même fichier mais pour des raisons de temps il en est ainsi -->
+
+   <!-- Ne pas oublier le pb rencontré avec le favicon -->
     
     </body>
     
