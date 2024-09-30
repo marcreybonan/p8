@@ -42,9 +42,10 @@ attaques_joueur2 = {
     "faisceau de lune" : random.randint(13, 29),
 }
 
+#A DEBUG
  self.joueur1 = Joueur("Joueur 1", tk.PhotoImage(file="perso_joueur.png"), attaques_joueur1)
         self.joueur2 = Joueur("Joueur 2", tk.PhotoImage(file="perso_ia.png"), attaques_joueur2)
-
+#A DEBUG
         self.cadre = tk.Frame(master)
         self.cadre.pack()
 
