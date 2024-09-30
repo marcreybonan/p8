@@ -1,1 +1,43 @@
+#On importe les librairies nécessaires
+#Combat 1v1, joueur contre IA
+#L'IA joue après le joueur
+#Barres de vie, différentes attaques et sprite
+#S'inspire de l'univers Dofus, Wakfu et Weaven ainsi que des mécanismes de combat de Pokemon (tour par tour)
 
+
+import tkinder as tk
+import random
+
+#On commence les déclarations de classe 
+class Joueur:
+def __init__(self, nom, image, attaques):
+   self.nom = nom  
+   self.points_de_vie = 100  
+   self.attaques = attaques  
+   self.image = image
+
+def est_vivant(self):
+  return self.points_de_vie > 0
+
+def attaquer(self, autre_joueur, attaque):
+   degats = self.attaques[attaque]
+   autre_joueur.points_de_vie -= degats
+   return degats
+
+class Jeu:
+   def __init__(self, master):
+      self.master = master
+      self.master.title("Arena")
+      attaques_joueur1 = {
+          "Tempete de puissance": random.randit(18, 20),
+          "Epee celeste" : random.randit(10, 26),
+          "Onde de choc" : rand.randit(0, 50),
+          "Bourrasque" : random.randit(13, 27),
+}
+
+attaques_joueur2 = {
+    "traumatisme" : random.randit(20, 30),
+    "punition" : random.randit(0, 70),
+    "flux torrentiel" : random.randit(15, 22),
+    "faisceau de lune" : random.randit(13, 29),
+}
