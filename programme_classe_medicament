@@ -12,6 +12,17 @@ familles_medicaments = {
 "cilline": "betalactalines"
 "mycine": "macrolides" 
 "fibrate": "normolipemiants" 
-"conazole": "antifongiques" }
+"conazole": "antifongiques"
+"tropium": "antagonistes muscariniques"
+"statine" = "inhibiteurs de hmg_coa reductase"
+"navir" = "inhibiteurs de la prothease du vih"
+"amide" = "antagonistes des canaux potassiques"
+"caine" = "antagonistes des canaux sodiques voltage_dependants"}
 
-#En attente d'une liste exhaustive
+#Liste bientôt terminée 
+
+def (x,y):
+   return chainex.lower == chainey.lower 
+#A compléter plus tard, éviter tout problème de casse
+
+#On pourrait éventuellement expliquer quelle classe pharmaceutique fait quoi ainsi que les posologies de base
