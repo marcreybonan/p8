@@ -26,6 +26,10 @@
     <!-- Je ne suis pas fan de mélanger le HTML et le CSS dans le même fichier mais pour des raisons de temps il en est ainsi -->
 
    <!-- Ne pas oublier le pb rencontré avec le favicon -->
+
+  <!-- Aspect du site : logo central, deux menus de part et d'autre du logo
+  Contenu du site : Peu importe (chimie et biologie cellulaire et enseignement ?
+  Couleurs du site : A voir avec le logo -->
     
     </body>
     
