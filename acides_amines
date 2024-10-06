@@ -71,4 +71,16 @@ code = {
     'UAG': 'Codon stop mettant fin à la traduction',  
     'UGA': 'Codon stop mettant fin à la traduction',  
 }
-    
+
+#Eviter la casse
+
+def acide_amine(triplet):
+   triplet = triplet.upper()
+   return code.get(triplet, "Erreur")
+
+#On demande à l'utilisateur pour quel triplet il souhaite avoir l'acide amine ainsi que ses proprietes 
+
+if__nom__ =="__main__":
+   codon=input("Entrer un triplet de nucleotides (triplet): ")
+   acide_amine = acide_amine(codon)
+   print(f"L acide amine correspondant a votre codon '{codon}' est {acide_amine}")
