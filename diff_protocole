@@ -1,6 +1,8 @@
 #Ce programme traite un sujet médical lié à l'oncologie, pour des raisons évidentes, cela a été vulgarisé et très simplifié
 #Dans ce programme nous nous interesserons à un patient nommé Rey.
 
+import random 
+
 protocole = "ABVD" 
 details_protocole = ["Vinblastine", "Bléomycine", "Doxorubicine", "Dacarbazine"]
 taille = 1,65
@@ -58,7 +60,6 @@ print(f"Selon l'utilisateur, la durée du traitement est {duree_traitement}")
 #Dans chaque cancer, il y a un risque plus ou moins eleve de rechute, dans le cas de Rey, le taux de rechute est de 10%
 #Nous souhaitons savoir si il va rechuter
 
-import random
 
 def rechute(probabilite=0.1):
    return random.random() < probabilite
