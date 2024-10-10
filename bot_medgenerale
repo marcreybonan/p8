@@ -11,6 +11,10 @@ input(" :")
 taille=float(input("Quelle taille faites vous ? :"))
 poids=float(input("Combien pesez vous ? :"))
 imc=poids/(taille*taille)
+fumeur=input("Est ce que vous fumez" ? :"))
+#boleen
+tension=input("Quelle est votre tension de reference ? :"))
+
 
 if imc<19:
    print("Vous etes en situation de sous poids")
