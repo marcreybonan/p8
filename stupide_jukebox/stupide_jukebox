@@ -1,7 +1,10 @@
 #Jouer des sons issus de meme en appuyant sur des boutons sur une fenetre tkinter
 
 import tkinter as tk
-import simpleaudio as sa
+import simpleaudio as sa  
+from tkinter import*
+
+fenetre=tk()
 
 #Differentes etapes
 #Creer fenetre principale
