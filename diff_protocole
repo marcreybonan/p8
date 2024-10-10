@@ -5,7 +5,7 @@ import random
 
 protocole = "ABVD" 
 details_protocole = ["Vinblastine", "Bléomycine", "Doxorubicine", "Dacarbazine"]
-taille = 1,65
+taille = 1.65
 poids_debut_traitement = 67
 imc_debut_traitement = poids_debut_traitement/(taille*taille)
 #On affiche les données que l'on possède sur le patient
