@@ -13,12 +13,12 @@ poids=float(input("Combien pesez vous ? :"))
 imc=poids/(taille*taille)
 fumeur=input("Est ce que vous fumez" ? :"))
 #boleen
-tension=input("Quelle est votre tension de reference ? :"))
+tension=(input("Quelle est votre tension de reference ? :"))
 
 
 if imc<19:
    print("Vous etes en situation de sous poids")
-elif imc>20 and imc<25
+elif imc>20 and imc<25:
    print("Vous avez un imc normal")
 elif imc>25 and imc<30:
    print("Vous etes en situation d obesite")
