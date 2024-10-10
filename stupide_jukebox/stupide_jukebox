@@ -33,13 +33,13 @@ bouton3 = tk.Button(fenetre, text="Meme 3", command=tbouton)
 bouton3.pack(pady=10)
 
 bouton4 = tk.Button(fenetre, text="Meme 4", command=qbouton)
-bouton1.pack(pady=10)  
+bouton4.pack(pady=10)  
 
 bouton5 = tk.Button(fenetre, text="Meme 5", command=cbouton)
-bouton2.pack(pady=10)
+bouton5.pack(pady=10)
 
 bouton6 = tk.Button(fenetre, text="Meme 6", command=sbouton)
-bouton3.pack(pady=10)
+bouton6.pack(pady=10)
 
 #Les autres seront à cote, cad à droite (7 a 12)
 #fin
