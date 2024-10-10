@@ -1,4 +1,4 @@
-#Ici on souhaite creer un bot medical simple qui posera des questions simples a l utilisateur et qui adaptera en consequence ses questions
+#Ici on souhaite creer un bot medical simple qui posera des questions simples a l utilisateur et qui adaptera en fonction ses questions
 #Au debut il ne sera pas question de questions compliquees dans l examen clinique, le programme devra etre capable a terme de lire une prise de sang etc....
 
 def bot_medgenerale():
@@ -8,8 +8,8 @@ input(" :")
 
 #Recole des donnees 
 
-taille=int(input("Quelle taille faites vous ?"))
-poids=int(input("Combien pesez vous ?"))
+taille=float(input("Quelle taille faites vous ?"))
+poids=float(input("Combien pesez vous ?"))
 imc=poids/(taille*taille)
 
 
