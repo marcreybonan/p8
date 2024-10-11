@@ -11,9 +11,15 @@ input(" :")
 taille=float(input("Quelle taille faites vous ? :"))
 poids=float(input("Combien pesez vous ? :"))
 imc=poids/(taille*taille)
-fumeur=input("Est ce que vous fumez" ? :"))
-#boleen
 tension=(input("Quelle est votre tension de reference ? :"))
+
+#boleen pour ce qui suit
+fumeur=input("Est ce que vous fumez" ? :"))
+bruit_ausculation_pulmonaire
+bruit_auscultation_cardiaque
+hepatomegalie
+splenomegalie
+anemie
 
 
 if imc<19:
