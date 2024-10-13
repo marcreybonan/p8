@@ -13,8 +13,13 @@
 1/1 ; exact
 1+11i ; complexe
 
+#o123 ; octal
+#x123 ; hexadécimal
+
 #t ; booléen true
 #f ; booléen false
 ; Toute autre valeur que #f est vraie
+
+
 
 
