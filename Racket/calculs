@@ -1,0 +1,5 @@
+#lang racket
+; Ce programme est destiné à des calculs de difficulté croissante
+
+#o34 = 28
+#o672 = 506
