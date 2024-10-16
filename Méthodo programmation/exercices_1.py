@@ -125,5 +125,21 @@ repetitions = liste.count(occurence)
 print(f"Le chiffre {occurence} est contenu {repetitions} au sein de notre liste") 
 
 
+#EXERCICE 10
+#On cherche à créer une liste à partir d'une liste initiale
+#Dans cet exemple on va se servir de l'exercice 6, on va chercher au sein d'une liste de nombres, combien de nombres paires sont présents
+
+#On initie les deux listes 
+liste_initiale = [9465, 45, 579, 4747, 427, 5643, 46473, 648, 274, 321]
+liste_paire = []
+
+#On parcourt la liste comme dans l'exercice 6 à la recherche de nombre pair
+#On ajoutera ces nombres paires à notre liste_paire grâce à .append
+for nombre in ma_liste:
+    if nb %2 == 0:
+         liste_paire.append(nb)
+
+#On affiche le résultat
+print("Voici les nombres paires", liste_paire)
 
 
