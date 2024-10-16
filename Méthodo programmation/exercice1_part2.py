@@ -52,7 +52,7 @@ for prenom, age in amis:
     if age > 20:
         print(prenom)
 
-EXERCICE 6
+#EXERCICE 6
 
 #Créations des listes 
 gundam = [("Providence"),("Duel"),("Legend"),("Astray")]
@@ -66,4 +66,21 @@ for gundam, prix in liste_fusionnee:
 
 #Sympa comme exercice
 
+
+#EXERCICE 7
+
+#Création des deux listes de nombres
+liste_un = (2, 4, 6, 8, 10)
+liste_deux = (1, 3, 5, 7, 9)
+
+#On s'aide de l'opérateur set() utilisé en mathématiques afin de convertir les tuples en ensemble qu'on pourra comparer et trouver les unions et intersections
+eun = set(liste_un)
+edeux = set(liste_deux)
+
+intersection = eun.intersection(edeux)
+union = eun.union(edeux)
+
+#On affiche les résultats
+print("Union", union)
+print("Intersection", intersection)
 
