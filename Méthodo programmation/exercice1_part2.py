@@ -98,4 +98,16 @@ same = set(liste)
 print("liste sans modif", liste)
 print("liste apres modif", same)
 
+#EXERCICE 9 
+#On crée notre suite numérique
+nb = (22, 26, 76, 664, 9237, 4552, 84645, 4524, 19, 482, 1735)
+
+#Selection des nb impairs, on se sert de la méthode utilisée dans les précédents exercices avec le modulo
+for nombre in nb:
+    if nombre % 2 != 0:    
+        print(nombre)
+
+
+
+
 
