@@ -43,7 +43,6 @@ lst.remove("1")
 
 
 #EXERCICE 5
-
 #On demande à nos élèves de saisir des nombres (pas trop non plus) afin d'en faire ensuite une liste
 input_liste = input("Saisissez des nombres mais séparés d'un espace : ")
 
@@ -65,7 +64,6 @@ print(liste_complete)
 
 
 #EXERCICE 6  
-
 #Solution de facilité, si un nombre est pair alors le reste de la division par 2 sera nul 
 #Ainsi il est choisi d'utiliser le modulo % et, considérons une liste [x, y, z] si x,y,z%2 == 0 alors ces nombres seront pairs et il n'y aura plus qu'à les afficher 
 #Ainsi on considère une liste quelconque
@@ -79,7 +77,6 @@ for nombres in liste:
 #On pourrait écrire les nb n'étant pas paires via else 
 
 #EXERCICE 7 
-
 #On pourrait utiliser l'opérateur sum() mais il est demandé d'utiliser l'opérateur for
 
 somme = 0
@@ -90,8 +87,42 @@ for nb in liste:
   somme+=nb
 print("La somme est de" somme)
 
+#EXERCICE 8 
 
+#AVEC LA FONCTION INTEGREE MAX()
+liste = [323, 22, 33, 54, 75, 170, 7, 78, 65, 43]
 
+# Trouver l'élément le plus grand  
+maxx = max(liste)
+
+print("L'élément le plus grand de la liste est :", maxx)
+
+#AVEC L'OPERATEUR FOR
+liste = [323, 22, 33, 54, 75, 170, 7, 78, 65, 43]
+
+#On initialise notre variable qui est le max de la liste
+
+max= 0
+liste = [ 1, 2, 3]
+
+#On parcourt notre liste à la recherche du plus grand nombre et on donnera sa valeur à la variable max
+for nb in liste:
+  if nb > max:
+    max = nb
+    
+print(nb)
+
+#EXERCICE 9
+#On crée notre liste et on utilisera count() afin de voir le nb d'occurences au sein de notre liste
+#On introduit une variable occurence
+
+occurence = 0
+liste = [1, 1, 0, 1, 0, 1, 0, 0, 0]
+repetitions = liste.count(occurence)
+
+#On affiche le résultat
+
+print(f"Le chiffre {occurence} est contenu {repetitions} au sein de notre liste") 
 
 
 
