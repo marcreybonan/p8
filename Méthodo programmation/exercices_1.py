@@ -141,5 +141,3 @@ for nombre in ma_liste:
 
 #On affiche le résultat
 print("Voici les nombres paires", liste_paire)
-
-
