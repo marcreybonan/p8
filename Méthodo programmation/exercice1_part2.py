@@ -84,3 +84,18 @@ union = eun.union(edeux)
 print("Union", union)
 print("Intersection", intersection)
 
+
+#EXERCICE 8 
+#Comme dans l'exercice précédent on utilisera set()
+
+#Création liste
+liste =[(0, 0, 1, 1 0, 1, 1, 0, 0]
+
+#Comme dans l'exercice précédent on a recours a set() : 
+same = set(liste)
+
+#On affiche les résultats 
+print("liste sans modif", liste)
+print("liste apres modif", same)
+
+
