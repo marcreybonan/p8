@@ -107,7 +107,18 @@ for nombre in nb:
     if nombre % 2 != 0:    
         print(nombre)
 
+#EXERCICE 10
+# Initialisation du dictionnaire prénom/notes 
+dictionnaire = {
+    "Marc": [15, 17, 16],
+    "Andra": [11, 10, 12],
+    "Alexis": [6, 2, 7],
+    "Bugsy": [19, 15, 16]
+}
 
+# On parcourt le dictionnaire et on calcule la moyenne des notes  
+print("Moyenne de chaque etudiant :")
 
-
+for nom, notes in dictionnaire.items():
+      moyenne = sum(notes) / len(notes) 
 
