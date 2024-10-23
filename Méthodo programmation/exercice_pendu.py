@@ -28,7 +28,6 @@ def jeu():
 #.lower() afin d'éviter tout probleme de casse
        lettre = input("Trouvez une lettre : ").lower()
 
-
 #Si la lettre a déjà été trouvée on l'indique au joueur 
 #Si la lettre est bonne on l'ajoute grâce à .append et on le signifie l'utilisateur
 #Si la lettre entrée est mauvaise alors le nombre de chanches baisse 
@@ -60,6 +59,7 @@ def main():
         if jouer_encore != 'o':
             print("Merci d'avoir joué !")
             break
+            
 #Condition qui vérifie si le programme est executé de façon directe ou importée 
 #Permet de lancer le jeu
 if __name__ == "__main__":
